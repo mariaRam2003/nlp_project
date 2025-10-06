@@ -1,0 +1,104 @@
+{
+  "dataset_info": {
+    "total_records": 162980,
+    "valid_records": 162976,
+    "duplicates": 1,
+    "duplicate_percentage": 0.0006135722174499939,
+    "n_columns": 2,
+    "text_column": "clean_text",
+    "label_column": "category"
+  },
+  "text_statistics": {
+    "avg_length_chars": 124.17649224425682,
+    "median_length_chars": 114.0,
+    "std_length_chars": 67.92328497863764,
+    "min_length_chars": 1,
+    "max_length_chars": 274,
+    "avg_word_count": 20.080416748478303,
+    "median_word_count": 18.0,
+    "std_word_count": 10.879498123427753
+  },
+  "vocabulary": {
+    "total_words": 3230327,
+    "unique_words": 101274,
+    "lexical_diversity": 0.031351005641224554,
+    "top_10_words": [
+      [
+        "modi",
+        155659
+      ],
+      [
+        "the",
+        104514
+      ],
+      [
+        "and",
+        67372
+      ],
+      [
+        "for",
+        52455
+      ],
+      [
+        "you",
+        38991
+      ],
+      [
+        "not",
+        29350
+      ],
+      [
+        "india",
+        29189
+      ],
+      [
+        "will",
+        28948
+      ],
+      [
+        "this",
+        28618
+      ],
+      [
+        "that",
+        28197
+      ]
+    ]
+  },
+  "patterns": {
+    "urls": {
+      "percentage_present": 0.017180443746318476,
+      "avg_when_present": 1.0
+    },
+    "mentions": {
+      "percentage_present": 0.0,
+      "avg_when_present": 0
+    },
+    "hashtags": {
+      "percentage_present": 0.0,
+      "avg_when_present": 0
+    },
+    "numbers": {
+      "percentage_present": 10.93228450814844,
+      "avg_when_present": 1.346915866868721
+    },
+    "punctuation": {
+      "percentage_present": 0.1779403102297271,
+      "avg_when_present": 1.3517241379310345
+    },
+    "uppercase_words": {
+      "percentage_present": 0.0,
+      "avg_when_present": 0
+    },
+    "emojis": {
+      "percentage_present": 11.887639897899078,
+      "avg_when_present": 2.2849695468153195
+    }
+  },
+  "quality_issues": {
+    "short_texts": 379,
+    "long_texts": 1623,
+    "suspicious_texts": 4,
+    "non_ascii_texts": 19844
+  }
+}
